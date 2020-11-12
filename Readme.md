@@ -91,7 +91,7 @@ Según el tipo de acceso se tendrá permiso para acceder a las difentes rutas
 }
 ```
 
-- Para acceder a las siguientes rutas se debe completar el Header
+Para acceder a las siguientes rutas se debe completar el Header
 
 Key
 
@@ -144,8 +144,8 @@ BODY
 }
 ```
 
-- El plato se ingresa por id del mismo
-- El modo de pago es 1 - contado, 2 - débito y 3 - tarjeta.
+El plato se ingresa por id del mismo
+El modo de pago es 1 - contado, 2 - débito y 3 - tarjeta.
 
 - ### Ver las órdenes que se tienen realizadas.
 
@@ -196,7 +196,7 @@ BODY
 }
 ```
 
-- El plato corresponde al nombre del mismo
+El plato corresponde al nombre del mismo
 
 - ### Actualizar un producto - Solo Admin.
 
@@ -223,7 +223,7 @@ GET /delilah/pedidosadmin
 
 GET /delilah/pedidosadmin/:pedido
 
-- El pedido corresponde al codigo_pedido generado en la orden del usuario
+El pedido corresponde al codigo_pedido generado en la orden del usuario
 
 - ### Modificar el estado del pedido - Solo Admin.
 
@@ -238,12 +238,12 @@ BODY
 }
 ```
 
-- El pedido corresponde al codigo_pedido generado en la orden del usuario
-- El estado del pedido puede ser (1,'nuevo'),(2,'confirmado'),(3,'preparado'),(4,'enviando'),(5,'entregado'),(6,'cancelado');
-- El modo de pago es 1 - contado, 2 - débito y 3 - tarjeta.
+El pedido corresponde al codigo_pedido generado en la orden del usuario
+El estado del pedido puede ser (1,'nuevo'),(2,'confirmado'),(3,'preparado'),(4,'enviando'),(5,'entregado'),(6,'cancelado');
+El modo de pago es 1 - contado, 2 - débito y 3 - tarjeta.
 
 - ### Borrar un pedido - Solo Admin.
 
 DELETE /delilah/pedidosadmin/:pedido
 
-- El pedido corresponde al codigo_pedido generado en la orden del usuario
+El pedido corresponde al codigo_pedido generado en la orden del usuario
